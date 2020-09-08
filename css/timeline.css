@@ -74,13 +74,13 @@ a:hover {
 }
 
 .timeline h3 {
-  font-size: 45px;
-}
-.timeline h4 {
   font-size: 35px;
 }
-.timeline h5 {
+.timeline h4 {
   font-size: 30px;
+}
+.timeline h5 {
+  font-size: 25px;
 }
 
 /*----- TIMELINE ITEM -----*/
@@ -191,6 +191,23 @@ a:hover {
 .period .timeline-title {
   margin: 0;
 }
+
+/*----------------------------------------------
+    Resize heading on different screen views
+----------------------------------------------*/
+@media only screen and (mix-width: 768px) {
+  .timeline h3 {
+    font-size: 45px;
+  }
+  .timeline h4 {
+    font-size: 35px;
+  }
+  .timeline h5 {
+    font-size: 30px;
+  }
+}
+
+
 
 /*----------------------------------------------
     MOD: TIMELINE SPLIT
